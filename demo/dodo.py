@@ -1,7 +1,7 @@
 def task_energyplus():
     return {
             "file_dep": [ "CoolingTower.idf" ],
-            "actions": [ ["energyplus", "-r", "-d", "eplus_output", "CoolingTower.idf"] ],
+            "actions": [ ["energyplus.exe", "-r", "-d", "eplus_output", "CoolingTower.idf"] ],
             "targets": [ "eplus_output/eplusout.csv" ],
             "doc": "Run our EnergyPlus model"
     }

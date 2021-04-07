@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 import sys
 
-input_filepath = sys.argv[1]
+input_filepath  = sys.argv[1]
 output_filepath = sys.argv[2]
 
 xy_pairs = []

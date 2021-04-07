@@ -1,0 +1,11 @@
+redo_build/latex_build/
+
+
+../all
+redo_build/clean
+redo_build/eplusout.csv
+redo_build/eplusout.png
+redo_build/fig.png
+redo_build/my_report.pdf
+../index.html
+../presentation.html

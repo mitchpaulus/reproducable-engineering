@@ -2,7 +2,7 @@ import subprocess
 import csv
 import matplotlib.pyplot as plt
 
-subprocess.run(["energyplus", "-r", "-d", "eplus_output/", "CoolingTower.idf"])
+subprocess.run(["energyplus.exe", "-r", "-d", "eplus_output/", "CoolingTower.idf"])
 
 xy_pairs = []
 
@@ -17,6 +17,6 @@ with open("eplus_output/eplusout.csv") as eplus_data:
 fig, ax = plt.subplots()
 ax.plot(xy_pairs)  # Matplotlib plot.
 
-fig.savefig('out.png')
+fig.savefig('eplusout.png')
 
 subprocess.run(["lualatex", "my_report.tex"])
