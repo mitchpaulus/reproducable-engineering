@@ -9,7 +9,6 @@ date: "2021-04-08"
 - Command Commissioning
 - Building Optimization Group
 
-
 ## Reproducible Science
 
 > "Scientific research involves using the scientific method, which seeks
@@ -38,8 +37,13 @@ date: "2021-04-08"
 Built on two foundations:
 
 1. Version Control
-
 2. Build systems
+
+## Prerequisites
+
+1. Version Control: You've used a computer
+2. Build Systems: You've written a for loop
+    - You haven't? Recommend start with *Python*
 
 ## Live Demo
 
@@ -54,8 +58,8 @@ Common workflow:
 Our example:
 
 - Run EnergyPlus simulation model
-- Produce plot
-- Build paper using Latex
+- Produce visualization
+- Build paper using Latex or Markdown/Pandoc
 
 ## Live Demo
 
@@ -87,4 +91,12 @@ Improve on build scripts
 - `redo`: Shell or other interpreted language
 - `doit`: Python
 
+## Containerization
+
+- Bundle up code and all *dependencies, including the OS*.
+
+## Other cool things to explore
+
+- Docker
+- Windows Subsystem for Linux
 
