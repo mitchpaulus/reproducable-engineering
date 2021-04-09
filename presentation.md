@@ -38,6 +38,7 @@ Built on two foundations:
 
 1. Version Control
 2. Build systems
+    - *Anything that can be derived shall be derived.*
 
 ## Prerequisites
 
@@ -97,6 +98,8 @@ Improve on build scripts
 
 ## Other cool things to explore
 
+- Overleaf
 - Docker
 - Windows Subsystem for Linux
+- My blog/websites/YouTube channel
 
