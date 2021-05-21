@@ -20,3 +20,7 @@ Links to have ready:
 - [My website](https://mitchellt.com)
 - [Psychrometric Chart](https://psychrochart.com/)
 - [Psychrometric Calculator](https://excel-psychrometrics.com/)
+
+Dependencies: [Reveal.js](https://revealjs.com/)
+
+- Used the `league.css` theme.
